@@ -1,0 +1,70 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+
+META
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+
+A video game that is a procedurally generated, side-scrolling, retro-style action platformer.
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+META will be a side scrolling action platformer similar to retro games like Megaman or Metroid. 
+The player will control a character that can run, jumop, and shoot lasers. 
+The game will be procedurally generated, and the player will progress by moving to the right. 
+There won't be an explicit "end" to the game, because as the player progresses the game will continue to generate infinately while becoming progressively harder. 
+There will be various enemies and obstacles that will be able to deal damage to the player and defeat them, which will end the game and force the player to restart. 
+These enemies and obstacles will become stronger and more numerous as the game progresses. 
+The player will be able to fight back against these enemies by shooting them with lasers. 
+I also plan on implementing various power-ups and items to help the player overcome these challenges.
+The goal will be to get as far as possible before the player is defeated.
+
+This game will be built in Lua using the LOVE framework.
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+
+N/A
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+
+Meagan Rivera; Email: tun86379@temple.edu ; TA: Tamara Katic
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+
+-Player character can run, jump, and shoot
+-At least 2-3 different enemies
+-Player character and enemies will have simple sprites (sprites are 2D models that represent characters)(ie. rectangles, circles)
+-procedural generation (that hopefully doesn't end up trapping the player)
+-Scaling difficulty (Game becomes progressively harder)
+-Sounds for things like shooting, jumping, etc.
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+-Player character can run, jump, and shoot
+-At least 3-5 different enemies
+-Player character and enemies will have sprites (ie. aliens)
+-Background and environment will be space-themed
+-procedural generation with several obstacles and level layouts
+-Scaling difficulty 
+-Game will have a few simple items for the player to pick up (items do things like restore player health, make them do more damage, invincibility, etc.)
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+-Implement a background music track produced by my tremendously talented roommate, Cobi
+-Player character and enemies will have cool sprites 
+-Player character can run, jump, and shoot 
+-At least 3-5 different enemies (Possibly including a stronger "boss" enemy)
+-procedural generation will 
+-Scaling difficulty 
+-Game will have cooler items and power-ups (ie. making the player projectiles explode, freeze enemies, etc.)
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+I will first and foremost have to learn how to code in Lua, as well as how it interacts with the LOVE framework. 
+On top of that I'll probably have to do some research on class design and object oriented programming, as the way the games track teaches how to create games relies heavily on these.
+I'll proably have to research other things like game design and maybe look into how similar games were created.
+I will handle most of the code regarding the gameplay, enemy AI, and obstacles, as well as the procedural generation and maybe sound design. 
+Meagan will probably handle implementing the game states like the start and "Game Over" screens, as well as most of the visuals.
